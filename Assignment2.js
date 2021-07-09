@@ -29,7 +29,7 @@ for (let i = 1; i <= 100; i++) {
 
 
 // Question 2 -- Palindrome
-// s = "Madam is walking on the road"
+// s = "Madam and mom are walking on road"
 let str = "Madam and mom are walking on road"
 str = str.toLowerCase()
 str += " "
