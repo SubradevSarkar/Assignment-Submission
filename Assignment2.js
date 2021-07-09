@@ -28,7 +28,7 @@ for (let i = 1; i <= 100; i++) {
 
 
 
-// Question 2 -- Palindrom
+// Question 2 -- Palindrome
 // s = "Madam is walking on the road"
 let str = "Madam and mom are walking on road"
 str = str.toLowerCase()
@@ -43,9 +43,9 @@ for (let i = 0; i < str.length; i++) {
         s2 = str[i] + s2
     } else if (str[i] == " ") {
         if (s1 == s2) {
-            console.log(s1 + " - palindrom")
+            console.log(s1 + " - Palindrome")
         } else {
-            console.log(s1 + " - non-palindrom")
+            console.log(s1 + " - non-Palindrome")
         }
 
         s1 = ""
