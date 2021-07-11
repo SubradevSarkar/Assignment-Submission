@@ -1,8 +1,8 @@
-const input = document.querySelector("#name")
-const submitBtn = document.querySelector("#submit-btn")
-const text = document.querySelector("#text")
+function takeValue() {
 
+    var inp = document.getElementById('name-in');
+    var data = inp.value;
 
-function submit() {
-    text.innerHTML = "Hello my name is " + input.value
+    document.getElementById('name').innerText = data;
+
 }
